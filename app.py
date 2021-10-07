@@ -53,7 +53,7 @@ print('Actual labels   : ' ,y_test[:10])
 #Plot scatter plot to see fit
 import matplotlib.pyplot as plt
 
-%matplotlib inline
+#%matplotlib inline
 
 plt.scatter(y_test, predictions)
 plt.xlabel('Actual Labels')
